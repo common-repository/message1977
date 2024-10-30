@@ -1,0 +1,224 @@
+/* Title stuff */
+.message1977_title {
+    padding:8px 0 0 40px !important;
+    float:left;
+    background: transparent url(../img/icon_large.png) 0 8px no-repeat;
+}
+
+.message1977_add {
+    float:left;
+    padding: 16px 0 0 12px;
+}
+
+/* Misc stuff */
+.sep {
+    height:0;
+    font-size:0px;
+    line-height:0px;
+    clear:both;
+    margin:0;padding:0;
+}
+
+.sep_small {
+    height:8px;
+    font-size:8px;
+    line-height:8px;
+    clear:both;
+    margin:0;padding:0;    
+}
+
+.sep_medium {
+    height:12px;
+    font-size:12px;
+    line-height:12px;
+    clear:both;
+    margin:0;padding:0;    
+}
+
+.sep_large {
+    height:16px;
+    font-size:16px;
+    line-height:16px;
+    clear:both;
+    margin:0;padding:0;    
+}
+
+.red { color: red; }
+
+hr.line {
+    line-height:1px;
+    height:1px;
+    font-size:1px;
+    border:none;
+    background:#ccc;
+    margin:8px 0 8px 0;
+    clear:both;
+}
+
+.remarks {
+    font-size:13px !important;
+    line-height:16px;
+    color:#999;
+}
+
+.remarks a {
+    text-decoration:none;
+}
+
+/* Item listing */
+.message1977_items {
+    padding:0;
+    border:1px solid #ccc;
+
+    font-family: Georgia,"Times New Roman","Bitstream Charter",Times,serif;
+    font-size: 14px;
+    line-height: 18.2px;
+    
+    -moz-border-radius: 3px;
+    border-radius: 3px;        
+}
+
+.message1977_items th,
+.message1977_items td {
+    padding:8px;   
+    text-align:left;
+}
+
+.message1977_items tr {
+    background: #ccc;
+    color: #333; 
+}
+
+.message1977_items tr.row_odd {
+    background:#efefef;    
+    color: #000;   
+}
+
+.message1977_items tr.row_even {
+    background:#e1e1e1;
+    color: #000;    
+
+}
+
+.message1977_items td,
+.message1977_items th {
+
+}
+
+.message1977_items .published {
+    font-size:12px;
+    color:#339900;
+}
+.message1977_items .pending {
+    font-size:12px;
+    color:#996600;
+}
+
+.message1977_controls a {
+    font-size: 12px;
+    text-decoration: none;
+}
+
+/** Editing **/
+#editBox {
+    display:none;   
+}
+
+#editBox h3 {
+    padding:0;margin:0;
+}
+
+#editBox .twoCol {
+    position:relative;
+    height: 480px;    
+}
+
+#editBox .twoCol .col {
+    width:48%;
+    margin-right:1%;
+    float:left;
+}
+
+#editBox .hideIt {
+    display:none;
+}
+
+#editBox .row {
+    border: 1px solid #e1e1e1;
+    padding:0;
+    margin-bottom:4px;
+
+    -moz-border-radius: 3px;
+    border-radius: 3px;    
+}
+
+#editBox .row label {
+    display:block;
+    padding:4px;
+    margin-bottom:2px;
+    background:#e1e1e1;
+    font-weight:bold;
+    font-family: Georgia,"Times New Roman","Bitstream Charter",Times,serif;   
+}
+
+#editBox .row .input {
+    padding:0 2px 2px 2px;
+}
+
+#editBox .row .input input,
+#editBox .row .input textarea,
+#editBox .row .input select {
+    width:99.3%;   
+}
+
+#editBox .row .input textarea {
+    height:40px;
+}
+
+#editBox .row .input .sub_input {
+    clear:both;    
+    padding: 6px 0 0 12px;
+}
+
+#editBox .row .input .sub_input label,
+#editBox .row .input .sub_input input {
+    float:left;
+}
+
+#editBox .row .input .sub_input label {
+    width:30%;
+    margin-right:4px;    
+    background:transparent;
+    font-size:12px;
+}
+
+#editBox .row .input .sub_input input {
+    width:50%;
+}
+ 
+#editBox .message1977_save_button {
+    position:absolute;
+    bottom:0px;
+    
+}
+
+.tooltip {
+   position: absolute;
+   top: 0;
+   left: 0;
+   padding: 8px;
+   width: 220px;
+   font-size:12px;
+   border:1px solid #666600;
+   background: #ffff99;
+   z-index: 99999999;
+   display: none;
+
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -moz-box-shadow: 2px 2px 3px #999; -webkit-box-shadow: 2px 2px 3px #999; box-shadow: 2px 2px 3px #999;   
+}
+            
+.tooltip ul {
+    padding:0;margin:0;
+}

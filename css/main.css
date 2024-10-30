@@ -1,0 +1,26 @@
+.message1977 {
+    position:fixed;
+    overflow:hidden;
+    z-index:9999;
+}
+
+
+body.message1977_body_top {
+    padding-top:30px;    
+}
+
+body.message1977_body_bottom {
+    padding-bottom:30px;
+}
+
+.message1977_top {
+    top: 0; left: 0;
+}
+
+.message1977_bottom {
+    bottom: 0; left: 0;
+}
+
+.message1977_hideIt {
+    display:none;
+}
